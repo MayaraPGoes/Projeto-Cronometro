@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://css.gg/play-pause.css' rel='stylesheet'>
+    <link href='https://css.gg/play-stop.css' rel='stylesheet'>
+    <link href='https://css.gg/mail-reply.css' rel='stylesheet'>
+  </head>
+  <body>
+    <script src="js.js"></script>
+    <div class="container">
+      <div class="tela"> 
+          <span id="timer">00:00:00</span>
+        <div class="botoes">
+          <button class="botao1" onclick="start()"><i class="gg-play-pause"></i></button>
+          <button class="botao2" onclick="pause()"><i class="gg-play-stop"></i></button>
+          <button class="botao3" onclick="reset()"><i class="gg-mail-reply"></i></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
